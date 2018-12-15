@@ -5,12 +5,17 @@ Description
 This is project, Image Segmentation of Aerial Images, is an extension of the PhD Thesis written by Mnih Volodymyr of the University of Toronto in 2013. In this project we utilize VGG-16 and ResNet- 18&34 layer architectures to preform semantic segmentation on Satellite imagery of the Greater Area of Boston in order to isolate and identify buildings and roads against the background.
 
 Team:
+
 -Ryan Marshall
+
 -Taiwei Lu
 
 Project Originator: Mnih Volodymyr
+
 Link to PhD Thesis: https://www.cs.toronto.edu/~vmnih/docs/Mnih_Volodymyr_PhD_Thesis.pdf
+
 Link to GitHub: https://github.com/mitmul/ssai-cnn
+
 Link to Dataset: https://www.cs.toronto.edu/~vmnih/data/
 
 Requirements
@@ -33,13 +38,21 @@ Custom classes that must be a direct subfile in the ResNet directory:
 Code organization
 =================
 ResNet Layout:
+
     ResNet/
+
 	test_buildings.ipynb (run to test and visualize output - necessary data is present)
+
 	train_buildings.ipynb (trains building  - will not work without the data)
+
 	buildings_model.pkl (The Trained Model for building detection)
+
 	resnet.py (class that defines the architecture)
+
 	data_handler.py (class that loads the data into batches)
+
 	data/ (ignore contents - used in test_buildings.ipynb)
+
 	utils/ (ignore contents - helpful for creation)
 
 Directions: The only thing that needs to be ran is test_buildings.ipynb. The rest is there for viewing the content.
