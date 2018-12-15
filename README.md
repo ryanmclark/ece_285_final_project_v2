@@ -16,4 +16,4 @@ Code organization
 =================
 -Image segmentation using VGG16.ipynb -- Run code for training/visualization (download the support files in the folder 'VGG-SegNetwork'. 
 
-    A link to download the folder is:https://drive.google.com/drive/folders/1lCKPJiR88ZWZUxkHB6sZLbtfUWUH2mqs?usp=sharing)
+  A link to download the folder is:https://drive.google.com/drive/folders/1lCKPJiR88ZWZUxkHB6sZLbtfUWUH2mqs?usp=sharing)
