@@ -14,18 +14,4 @@ Install package '    ' a s follow :
 
 Code organization
 =================
--Image segmentation using VGG16.ipynb -- Run code for training/visualization (download the support files that are linked in the folder 'VGG-SegNetwork' to run)
-
-
-
-
-demo . ipynb -- Run a demo of our code ( reproduce Figure 3 of our report )
-
-train . upyng -- Run the training of our model ( a s described in Section 2)
-
-code / backprop . py -- Module implementing backprop
-
-code / visu . py -- Module for visualizing our dataset
-
-assets / model . dat -- Our model trained a s described in Section 4
-
+-Image segmentation using VGG16.ipynb -- Run code for training/visualization (download the support files in the folder 'VGG-SegNetwork'. A link to download the folder is:https://drive.google.com/drive/folders/1lCKPJiR88ZWZUxkHB6sZLbtfUWUH2mqs?usp=sharing)
